@@ -19,6 +19,7 @@ module Pkgr
     class UnknownAppType < Base; end
     class UnknownDistribution < Base; end
     class ConfigurationInvalid < Base; end
+    class TargetNotDefined < Base; end
   end
 
   def data_dir=(path)

@@ -27,6 +27,12 @@ module Pkgr
           end
         end
 
+        # Check if targets are defined but current target is not
+        if !targets.empty? && !targets.has_key?(distribution.to_s)
+          available_targets = targets.keys.join(", ")
+          raise Pkgr::Errors::TargetNotDefined, "Target '#{distribution}' is not defined in .pkgr.yml. Available targets: #{available_targets}"
+        end
+
         distro_config = targets[distribution.to_s]
         if distro_config.is_a?(Hash)
           distro_config.each do |k,v|
