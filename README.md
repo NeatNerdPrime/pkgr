@@ -211,7 +211,7 @@ Issue getting nokogiri to compile? Try the following based on this [comment](htt
 
 ## Authors
 
-* Cyril Rohr <cyril.rohr@gmail.com> - <http://crohr.me>, <https://packager.io>
+* Cyril Rohr <https://cyrilrohr.com>. Other projects: [RunsOn - 10x cheaper GitHub Actions runners](https://runs-on.com), [PullPreview - Preview environments made simple](https://pullpreview.com).
 
 ## Copyright
 
