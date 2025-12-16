@@ -45,7 +45,7 @@ module Pkgr
         opts[:input] = $stdin.read
       end
 
-      tarball_extract = Mixlib::ShellOut.new("tar xzf #{tarball} -C #{source_dir}", opts)
+      tarball_extract = Mixlib::ShellOut.new("tar xzf #{tarball} --no-same-owner -C #{source_dir}", opts)
       tarball_extract.logger = Pkgr.logger
       tarball_extract.run_command
       tarball_extract.error!
