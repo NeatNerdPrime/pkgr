@@ -3,7 +3,6 @@ default:
   - libpq-dev
   - libsqlite3-0
   - libevent-dev
-  - libxml2-dev
   - libxslt1-dev
   - libreadline-dev
   - build-essential
@@ -11,31 +10,39 @@ debian-6:
   - libssl0.9.8
   - libssl-dev
   - libmysqlclient-dev
+  - libxml2-dev
 debian-7:
   - libssl1.0.0
   - libssl-dev
   - libmysqlclient-dev
+  - libxml2-dev
 debian-8:
   - libssl1.0.0
   - libssl-dev
   - libmysqlclient-dev
+  - libxml2-dev
 debian-9:
   - libssl1.0.2
   - libssl1.0-dev
   - default-libmysqlclient-dev
+  - libxml2-dev
 debian-10:
   - libssl1.1
   - libssl-dev
   - default-libmysqlclient-dev
+  - libxml2-dev
 debian-11:
   - libssl1.1
   - libssl-dev
   - default-libmysqlclient-dev
+  - libxml2-dev
 debian-12:
   - libssl3
   - libssl-dev
   - default-libmysqlclient-dev
+  - libxml2-dev
 debian-13:
   - libssl3
   - libssl-dev
   - default-libmysqlclient-dev
+  - libxml2-dev

@@ -5,25 +5,32 @@ default:
   - libsqlite3-0
   - libevent-dev
   - libssl-dev
-  - libxml2-dev
   - libxslt1-dev
   - libreadline-dev
   - build-essential
 ubuntu-10.04:
   - libssl0.9.8
+  - libxml2-dev
 ubuntu-12.04:
   - libssl1.0.0
+  - libxml2-dev
 ubuntu-14.04:
   - libssl1.0.0
+  - libxml2-dev
 ubuntu-16.04:
   - libssl1.0.0
+  - libxml2-dev
 ubuntu-18.04:
   - libssl1.0.0
+  - libxml2-dev
 ubuntu-20.04:
   - libssl1.1
+  - libxml2-dev
 ubuntu-22.04:
   - libssl3
+  - libxml2-dev
 ubuntu-24.04:
   - libssl3
+  - libxml2-dev
 ubuntu-26.04:
   - libssl3
